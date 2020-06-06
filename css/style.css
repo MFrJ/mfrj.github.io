@@ -1,0 +1,182 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.top-right-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-right-menu > div {
+  margin-top: 0.85em;
+  margin-right: 1.5em;
+  font: 13px arial;
+}
+
+.top-right-menu > div:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#waffle {
+  height: auto;
+  width: auto;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: rgb(127, 82, 163);
+  display: flex;
+  align-items: center;
+  
+}
+
+.initial {
+
+  padding-left: 0.55em;
+  font-size: larger;
+  color: lavender;
+
+}
+
+.initial:hover {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.circle:hover {
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4.5em;
+}
+
+.mid-section > div {
+    margin-top: 2em;
+}
+
+.search-area > input {
+    height: 2.75em;
+    width:  40em;
+    background: url("../res/search.png"), url("../res/mic.png");
+    background-size: 1.8em, 0.85em;
+    background-position: 2% 50%, 96% 50%;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 45px;
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    font-size: 14px;
+
+}
+
+.search-area > input:hover {
+    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.search-buttons > button {
+    margin-right: 1.2em;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+
+.search-buttons > button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    
+}
+
+.language {
+    color: blue;
+}
+.language:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+
+}
+.country {
+    margin-left: 2em;
+    line-height: 40px;
+    
+}
+.bottom-menu {
+  display: flex;
+  padding-left: 2em;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid #e4e4e4;
+  padding-bottom: 1em;
+  
+
+}
+
+.bottom-menu > div {
+    margin-top: 1.5em;
+}
+
+.bottom-menu > div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom-menu > div:not(:first-of-type) {
+    margin-left: 1.5em;
+}
+
+.bottom-menu > div:nth-child(4){
+    margin-right: 50em;
+}
+
+
